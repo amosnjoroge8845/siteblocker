@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "SiteBlocker",
+    "version": "1.0",
+    "description": "Simple website blocker",
+
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+
+    "host_permissions": [
+        "<all_urls>"
+    ],
+
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    }
+}

@@ -1,0 +1,29 @@
+body {
+    width: 300px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    width: 180px;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#addBtn {
+    background: black;
+    color: white;
+    border: none;
+}
+
+li {
+    margin: 8px 0;
+}
